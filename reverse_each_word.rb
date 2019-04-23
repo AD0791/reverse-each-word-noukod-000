@@ -1,5 +1,5 @@
 def reverse_each_word mot
-  spmot = mot.split
+  rspmot = mot.split.reverse
   spmot.each do |m|
     m.reverse.join(" ")
   end
